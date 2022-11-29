@@ -1,11 +1,13 @@
 export interface IconProps {
-    iconType: string
+    type: IconType
 }
 
-const Icon = ({iconType}: IconProps) => {
-  switch(iconType) {
-    case 'burger-menu':
-      return <img src='burger-menu.svg' alt="burger-menu"/>
+export type IconType = 'hamburger-menu' | 'shopping-cart' | 'search' | 'black-shopping-cart'
+
+const Icon = ({type}: IconProps) => {
+  switch(type) {
+    case 'hamburger-menu':
+      return <img src='hamburger-menu.svg' alt="burger-menu"/>
     case 'shopping-cart':
       return <img src='shopping-cart.svg' alt="shopping-cart" className="p-3"/>
     case 'search':

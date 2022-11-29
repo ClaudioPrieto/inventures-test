@@ -1,11 +1,11 @@
 const Banner = () => {
 
   return (
-      <div className="flex flex-col mt-4">
-        <p className="mx-auto text-5xl">
+      <div className="flex flex-col mt-2">
+        <p className="mx-auto text-[40px]">
           💊
         </p>
-        <p className="mx-auto text-xl mt-[21px] font-medium">
+        <p className="mx-auto text-[19px] mt-2 font-medium">
           Revisa tus compras
         </p>
         <p className="mx-auto text-base mt-0.5 mb-[23px]">

@@ -23,8 +23,10 @@ const MedicineItem = ({
           <p className="text-[13px] underline">Quedan 5 comprimidos</p>
           <p className="text-[12px] underline">Para 5 dias</p>
         </div>
-        <div className="my-auto ml-5">
-          <Icon iconType="black-shopping-cart"/>
+        <div className="my-auto ml-8">
+          <button className="mt-2">
+            <Icon type="black-shopping-cart"/>
+          </button>
         </div>
       </div>
   );

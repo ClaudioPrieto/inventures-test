@@ -8,16 +8,16 @@ const Navbar = () => {
         <div className="flex items-center justify-between pt-2">
           <div className="flex items-center">
             <button className="text-white">
-              <Icon iconType="burger-menu"/>
+              <Icon type="hamburger-menu"/>
             </button>
-            <p className="text-white text-xl">Mi Pastillero</p>
+            <p className="text-white text-xl">Mi pastillero</p>
           </div>
           <div className="flex items-center">
-            <button className="text-white">
-              <Icon iconType="search"/>
+            <button className="text-white mr-3">
+              <Icon type="search"/>
             </button>
             <button className="text-white">
-              <Icon iconType="shopping-cart"/>
+              <Icon type="shopping-cart"/>
             </button>
           </div>
         </div>
