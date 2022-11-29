@@ -7,7 +7,7 @@ import Banner from '../components/Banner';
 const HomePage: FC = () => {
 
   return (
-    <div className='container'>
+    <div>
       <Navbar/>
       <Banner/>
       <MedicineList/>
