@@ -1,6 +1,4 @@
-import React from "react";
 import Icon from "./Icon";
-
 
 export interface MedicineItemProps {
     name: string
@@ -25,8 +23,8 @@ const MedicineItem = ({
           <p className="text-[13px] underline">Quedan 5 comprimidos</p>
           <p className="text-[12px] underline">Para 5 dias</p>
         </div>
-        <div className="m-auto">
-          <Icon iconType="black-shopping-cart" hasSign/>
+        <div className="my-auto ml-5">
+          <Icon iconType="black-shopping-cart"/>
         </div>
       </div>
   );

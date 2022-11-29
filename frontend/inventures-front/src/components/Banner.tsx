@@ -1,6 +1,4 @@
-import React, { FC } from "react";
-
-const Banner: FC = () => {
+const Banner = () => {
 
   return (
       <div className="flex flex-col mt-4">
