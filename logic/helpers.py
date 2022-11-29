@@ -1,11 +1,10 @@
 from itertools import permutations, combinations_with_replacement
 
-def printSolutions(solutions):
+def printSolutions(solutions: list):
     for solution in solutions:
         print(solution)
 
-def getAllUniqueCambinations(digitsQuantity):
-    
+def getAllUniqueCombinations(digitsQuantity: int):
     operations = ['+', '-', '*', '/']
     uniqueOperations = []
     
@@ -15,4 +14,6 @@ def getAllUniqueCambinations(digitsQuantity):
                 uniqueOperations.append(oper)
     
     return uniqueOperations
-            
+
+def generateFormula(values: set, operations: set) -> str:
+    return '{}{}{}{}{}{}{}'.format(values[0], operations[0], values[1], operations[1], values[2], operations[2], values[3])
